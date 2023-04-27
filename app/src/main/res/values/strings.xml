@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Employee</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="insert_data">INSERT DATA</string>
+    <string name="fetch_data">FETCH DATA</string>
+</resources>

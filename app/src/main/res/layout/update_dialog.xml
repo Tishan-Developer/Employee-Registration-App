@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etEmpFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="First Name"
+        android:gravity="center"
+        android:textColorHint="#00838F"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etEmpLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Last Name"
+        android:gravity="center"
+        android:textColorHint="#00838F"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Age"
+        android:gravity="center"
+        android:textColorHint="#00838F"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Salary"
+        android:inputType="phone"
+        android:textColorHint="#00838F"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update"/>
+
+</LinearLayout>

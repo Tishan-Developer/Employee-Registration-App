@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/bgimagelayout"
+    tools:context=".activities.SaveDataActivity">
+
+    <EditText
+        android:id="@+id/etxtFN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etxtLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/etxtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/etxtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SAVE DATA"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
